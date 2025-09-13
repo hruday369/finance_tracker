@@ -9,13 +9,16 @@ from visualizer import FinanceVisualizer
 from insights import InsightGenerator
 from utils import DataProcessor, ReportGenerator
 
-# Page configuration
-st.set_page_config(
-    page_title="Personal Finance Tracker",
-    page_icon="💰",
-    layout="wide",
-    initial_sidebar_state="expanded"
-)
+import os
+
+# Production settings
+if 'STREAMLIT_SERVER_PORT' in os.environ:
+    # Running on a cloud platform
+    st.set_page_config(
+        page_title="Personal Finance Tracker",
+        page_icon="💰",
+        layout="wide"
+    )
 
 # Custom CSS
 st.markdown("""
