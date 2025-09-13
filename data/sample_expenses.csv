@@ -1,0 +1,101 @@
+Date,Description,Amount,Category
+2024-01-03,Restaurant ABC,427.76,Food
+2024-01-06,KFC,115.0,Food
+2024-01-09,Miscellaneous,122.72,Others
+2024-01-09,Pizza Hut,98.84,Food
+2024-01-10,Online Store,262.41,Shopping
+2024-01-12,Internet Bill,221.61,Utilities
+2024-01-14,Online Store,51.95,Shopping
+2024-01-17,Bus Ticket,96.45,Transport
+2024-01-21,Miscellaneous,438.49,Others
+2024-01-26,Water Bill,194.44,Utilities
+2024-01-27,Mall Purchase,334.79,Shopping
+2024-01-31,Starbucks,82.8,Food
+2024-02-01,Donation,14.77,Others
+2024-02-03,Pizza Hut,432.62,Food
+2024-02-05,Bus Ticket,248.72,Transport
+2024-02-18,KFC,271.91,Food
+2024-02-18,Miscellaneous,199.55,Others
+2024-02-23,Donation,323.59,Others
+2024-03-01,Insurance,194.57,Others
+2024-03-12,Insurance,352.12,Others
+2024-03-24,Insurance,292.68,Others
+2024-03-27,ATM Withdrawal,16.21,Others
+2024-03-29,Uber,179.42,Transport
+2024-04-07,Netflix,50.05,Entertainment
+2024-04-08,Internet Bill,285.84,Utilities
+2024-04-10,Uber,85.15,Transport
+2024-04-11,Amazon,36.21,Shopping
+2024-04-20,Uber,420.61,Transport
+2024-05-02,Metro Card,473.37,Transport
+2024-05-02,Pharmacy,75.08,Healthcare
+2024-05-08,Pharmacy,208.36,Healthcare
+2024-05-12,Internet Bill,96.41,Utilities
+2024-05-12,Dental,205.01,Healthcare
+2024-05-14,Donation,40.66,Others
+2024-05-16,Concert,463.6,Entertainment
+2024-05-28,ATM Withdrawal,388.26,Others
+2024-06-01,Clothing Store,7.2,Shopping
+2024-06-07,ATM Withdrawal,250.83,Others
+2024-06-11,Bus Ticket,272.43,Transport
+2024-06-12,KFC,309.86,Food
+2024-06-14,ATM Withdrawal,152.0,Others
+2024-06-15,Bus Ticket,284.14,Transport
+2024-06-16,Pharmacy,296.87,Healthcare
+2024-06-24,Dental,82.66,Healthcare
+2024-06-25,Gaming,236.02,Entertainment
+2024-06-26,Rent,161.41,Utilities
+2024-06-29,Metro Card,127.74,Transport
+2024-07-09,Pharmacy,471.39,Healthcare
+2024-07-12,Clothing Store,399.96,Shopping
+2024-07-15,Phone Bill,271.03,Utilities
+2024-07-20,Mall Purchase,154.18,Shopping
+2024-07-23,Mall Purchase,423.78,Shopping
+2024-07-25,Pharmacy,255.65,Healthcare
+2024-07-26,Medicine,448.24,Healthcare
+2024-07-26,Online Store,426.5,Shopping
+2024-07-27,Spotify,287.22,Entertainment
+2024-07-30,Water Bill,8.89,Utilities
+2024-07-31,Rent,278.84,Utilities
+2024-08-01,Miscellaneous,258.86,Others
+2024-08-04,Taxi,30.38,Transport
+2024-08-05,Doctor Visit,45.81,Healthcare
+2024-08-11,Metro Card,462.59,Transport
+2024-08-11,Pharmacy,19.82,Healthcare
+2024-08-19,Electricity Bill,260.1,Utilities
+2024-08-24,Internet Bill,350.29,Utilities
+2024-08-25,Miscellaneous,462.15,Others
+2024-08-29,Donation,308.55,Others
+2024-09-13,Rent,126.04,Utilities
+2024-09-14,Mall Purchase,330.02,Shopping
+2024-09-15,Online Store,241.8,Shopping
+2024-09-20,Clothing Store,393.09,Shopping
+2024-09-20,Water Bill,498.12,Utilities
+2024-09-24,Uber,335.89,Transport
+2024-10-02,Rent,185.2,Utilities
+2024-10-02,Donation,160.97,Others
+2024-10-03,Clothing Store,499.25,Shopping
+2024-10-05,Internet Bill,481.34,Utilities
+2024-10-11,Clothing Store,96.3,Shopping
+2024-10-12,Mall Purchase,402.8,Shopping
+2024-10-17,Bus Ticket,22.93,Transport
+2024-10-30,Doctor Visit,141.72,Healthcare
+2024-10-30,Miscellaneous,47.74,Others
+2024-10-31,Water Bill,477.4,Utilities
+2024-11-04,Clothing Store,271.83,Shopping
+2024-11-04,Bus Ticket,142.69,Transport
+2024-11-05,Phone Bill,442.28,Utilities
+2024-11-06,Water Bill,450.93,Utilities
+2024-11-10,Mall Purchase,191.57,Shopping
+2024-11-10,Insurance,297.25,Others
+2024-11-14,Books,71.87,Entertainment
+2024-11-16,Doctor Visit,245.59,Healthcare
+2024-11-25,Taxi,228.16,Transport
+2024-11-26,Electronics,468.05,Shopping
+2024-11-28,Restaurant ABC,326.85,Food
+2024-12-07,Dental,455.98,Healthcare
+2024-12-07,Mall Purchase,417.61,Shopping
+2024-12-11,Medicine,82.79,Healthcare
+2024-12-17,Water Bill,390.63,Utilities
+2024-12-21,Netflix,37.19,Entertainment
+2024-12-21,Mall Purchase,451.14,Shopping
