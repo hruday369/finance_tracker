@@ -26,42 +26,33 @@ class DataProcessor:
     
     @staticmethod
     def standardize_columns(df):
-        """Standardize column names to match our schema"""
+        """
+        Rename columns to standard expected names for the app.
+        """
         column_mapping = {
-            # Common variations for date columns
-            'transaction_date': 'date',
-            'trans_date': 'date',
-            'posting_date': 'date',
-            'value_date': 'date',
-            
-            # Common variations for description columns
-            'transaction_details': 'description',
-            'details': 'description',
-            'merchant': 'description',
-            'payee': 'description',
-            'memo': 'description',
-            
-            # Common variations for amount columns
-            'debit': 'amount',
-            'credit': 'amount',
-            'transaction_amount': 'amount',
-            'value': 'amount',
+            # Map dataset columns to app expected columns
+            "date": "date",
+            "transaction description": "description",
+            "category": "category",
+            "amount": "amount",
+            "type": "type",  # May be used if you want to differentiate expenses/income
         }
-        
-        # Convert column names to lowercase for matching
-        df.columns = df.columns.str.lower().str.replace(' ', '_')
-        
-        # Apply mapping
+    
+        # Lowercase column names + remove spaces for consistent matching
+        df.columns = df.columns.str.lower().str.strip()
+    
+        # Rename columns
         df = df.rename(columns=column_mapping)
-        
-        # Ensure required columns exist
-        required_columns = ['date', 'description', 'amount']
-        for col in required_columns:
-            if col not in df.columns:
-                st.warning(f"Required column '{col}' not found. Please check your file format.")
-                return None
-        
+    
+        # Check for required columns
+        required_columns = ["date", "description", "category", "amount"]
+        missing_cols = [col for col in required_columns if col not in df.columns]
+        if missing_cols:
+            raise ValueError(f"Missing required columns: {missing_cols}")
+    
+        # Return DataFrame with only necessary columns
         return df[required_columns]
+
     
     @staticmethod
     def clean_amount_column(df):
